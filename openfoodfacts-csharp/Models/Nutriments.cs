@@ -1,90 +1,90 @@
 
 using System.Collections.Generic;
-using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace OpenFoodFactsCSharp.model
 {
     public class Nutriments
     {
-        [JsonPropertyName("salt")]
+        [JsonProperty("salt")]
         public float? Salt { get; set; }
 
-        [JsonPropertyName("salt_serving")]
+        [JsonProperty("salt_serving")]
         public float? SaltServing { get; set; }
 
-        [JsonPropertyName("salt_100g")]
+        [JsonProperty("salt_100g")]
         public float? Salt100g { get; set; }
 
-        [JsonPropertyName("salt_unit")]
+        [JsonProperty("salt_unit")]
         public string? SaltUnit { get; set; }
 
-        [JsonPropertyName("fat")]
+        [JsonProperty("fat")]
         public float? Fat { get; set; }
 
-        [JsonPropertyName("fat_serving")]
+        [JsonProperty("fat_serving")]
         public float? FatServing { get; set; }
 
-        [JsonPropertyName("fat_100g")]
+        [JsonProperty("fat_100g")]
         public float? Fat100g { get; set; }
 
-        [JsonPropertyName("fat_unit")]
+        [JsonProperty("fat_unit")]
         public string? FatUnit { get; set; }
 
-        [JsonPropertyName("saturated-fat")]
+        [JsonProperty("saturated-fat")]
         public float? SaturatedFat { get; set; }
 
-        [JsonPropertyName("saturated-fat_serving")]
+        [JsonProperty("saturated-fat_serving")]
         public float? SaturatedFatServing { get; set; }
 
-        [JsonPropertyName("saturated-fat_100g")]
+        [JsonProperty("saturated-fat_100g")]
         public float? SaturatedFat100g { get; set; }
 
-        [JsonPropertyName("saturated-fat_unit")]
+        [JsonProperty("saturated-fat_unit")]
         public string? SaturatedFatUnit { get; set; }
 
-        [JsonPropertyName("sugars")]
+        [JsonProperty("sugars")]
         public float? Sugars { get; set; }
 
-        [JsonPropertyName("sugars_serving")]
+        [JsonProperty("sugars_serving")]
         public float? SugarsServing { get; set; }
 
-        [JsonPropertyName("sugars_100g")]
+        [JsonProperty("sugars_100g")]
         public float? Sugars100g { get; set; }
 
-        [JsonPropertyName("sugars_unit")]
+        [JsonProperty("sugars_unit")]
         public string? SugarsUnit { get; set; }
 
-        [JsonPropertyName("carbohydrates")]
+        [JsonProperty("carbohydrates")]
         public float? Carbohydrates { get; set; }
 
-        [JsonPropertyName("carbohydrates_serving")]
+        [JsonProperty("carbohydrates_serving")]
         public float? CarbohydratesServing { get; set; }
 
-        [JsonPropertyName("carbohydrates_100g")]
+        [JsonProperty("carbohydrates_100g")]
         public float? Carbohydrates100g { get; set; }
 
-        [JsonPropertyName("carbohydrates_unit")]
+        [JsonProperty("carbohydrates_unit")]
         public string? CarbohydratesUnit { get; set; }
 
-        [JsonPropertyName("energy-kcal_100g")]
+        [JsonProperty("energy-kcal_100g")]
         public float? EnergyKcal100g { get; set; }
 
-        [JsonPropertyName("energy-kcal_serving")]
+        [JsonProperty("energy-kcal_serving")]
         public float? EnergyKcalServing { get; set; }
 
-        [JsonPropertyName("energy-kcal_unit")]
+        [JsonProperty("energy-kcal_unit")]
         public string? EnergyKcalUnit { get; set; }
 
-        [JsonPropertyName("proteins")]
+        [JsonProperty("proteins")]
         public float? Proteins { get; set; }
 
-        [JsonPropertyName("proteins_serving")]
+        [JsonProperty("proteins_serving")]
         public float? ProteinsServing { get; set; }
 
-        [JsonPropertyName("proteins_100g")]
+        [JsonProperty("proteins_100g")]
         public float? Proteins100g { get; set; }
 
-        [JsonPropertyName("proteins_unit")]
+        [JsonProperty("proteins_unit")]
         public string? ProteinsUnit { get; set; }
 
         // ... and other nutrients ...

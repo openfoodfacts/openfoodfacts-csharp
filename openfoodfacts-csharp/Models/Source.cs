@@ -1,5 +1,5 @@
 
-using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace OpenFoodFactsCSharp.model
 {
@@ -11,7 +11,7 @@ namespace OpenFoodFactsCSharp.model
 
         public string[] Images { get; set; } = { };
 
-        [JsonPropertyName("import_t")]
+        [JsonProperty("import_t")]
         public long? ImportT { get; set; }
 
         public string? Manufacturer { get; set; }

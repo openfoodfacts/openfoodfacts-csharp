@@ -1,6 +1,5 @@
 
-using System.Text.Json.Serialization;
-
+using Newtonsoft.Json;
 using OpenFoodFactsCSharp.model;
 
 namespace OpenFoodFactsCSharp.model
@@ -13,7 +12,7 @@ namespace OpenFoodFactsCSharp.model
 
         public bool? Status { get; set; }
 
-        [JsonPropertyName("status_verbose")]
+        [JsonProperty("status_verbose")]
         public string? StatusVerbose { get; set; }
     }
 }

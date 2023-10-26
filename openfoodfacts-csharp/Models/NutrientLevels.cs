@@ -1,5 +1,6 @@
 
-using System.Text.Json.Serialization;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 
 namespace OpenFoodFactsCSharp.model
 {
@@ -9,7 +10,7 @@ namespace OpenFoodFactsCSharp.model
 
         public string? Salt { get; set; }
 
-        [JsonPropertyName("saturated-fat")]
+        [JsonProperty("saturated-fat")]
         public string? SaturatedFat { get; set; }
 
         public string? Sugars { get; set; }

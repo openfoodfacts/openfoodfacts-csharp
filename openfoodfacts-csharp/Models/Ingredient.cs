@@ -1,11 +1,12 @@
 
-using System.Text.Json.Serialization;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 
 namespace OpenFoodFactsCSharp.model
 {
     public class Ingredient
     {
-        [JsonPropertyName("from_palm_oil")]
+        [JsonProperty("from_palm_oil")]
         public string? FromPalmOil { get; set; }
 
         public string? Id { get; set; }
