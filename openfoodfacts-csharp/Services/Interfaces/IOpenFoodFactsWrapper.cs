@@ -2,7 +2,7 @@
 using OpenFoodFactsCSharp.model;
 using System.Threading.Tasks;
 
-namespace OpenFoodFactsCSharp.service
+namespace OpenFoodFactsCSharp.services.interfaces
 {
     public interface IOpenFoodFactsWrapper
     {

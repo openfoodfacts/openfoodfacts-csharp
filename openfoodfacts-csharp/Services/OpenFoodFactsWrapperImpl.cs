@@ -3,10 +3,11 @@ using System;
 using System.Net.Http;
 using OpenFoodFactsCSharp.model;
 using OpenFoodFactsCSharp.client;
-using OpenFoodFactsCSharp.service;
+using OpenFoodFactsCSharp.services;
 using System.Threading.Tasks;
+using OpenFoodFactsCSharp.services.interfaces;
 
-namespace OpenFoodFactsCSharp.service.impl
+namespace OpenFoodFactsCSharp.services
 {
     public class OpenFoodFactsWrapperImpl : IOpenFoodFactsWrapper
     {

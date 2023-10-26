@@ -1,11 +1,11 @@
-using OpenFoodFactsCSharp.service.impl;
+using OpenFoodFactsCSharp.services;
 using Xunit;
 
 namespace OpenFoodFactsCSharp.Tests
 {
     public class OpenfoodfactsCSharpWrapperTest
     {
-        private readonly OpenFoodFactsCSharp.service.impl.OpenFoodFactsWrapperImpl service;
+        private readonly OpenFoodFactsCSharp.services.OpenFoodFactsWrapperImpl service;
 
         public OpenfoodfactsCSharpWrapperTest()
         {
