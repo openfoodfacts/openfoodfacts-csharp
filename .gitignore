@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/openfoodfacts-csharp.tests/bin/Debug/net6.0
+/openfoodfacts-csharp.tests/obj
+/openfoodfacts-csharp/obj
+/openfoodfacts-csharp/bin/Debug/net6.0
+/.vs/openfoodfacts-csharp/FileContentIndex
+/.vs/openfoodfacts-csharp/v17/TestStore/0
+/.vs/openfoodfacts-csharp/v17
+/.vs
