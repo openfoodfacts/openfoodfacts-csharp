@@ -10,3 +10,5 @@
 /.vs/openfoodfacts-csharp/v17/TestStore/0
 /.vs/openfoodfacts-csharp/v17
 /.vs
+/openfoodfacts-csharp.tests/bin/Debug/netstandard2.1
+/openfoodfacts-csharp/bin/Debug/netstandard2.1
