@@ -1,5 +1,5 @@
 
-namespace pl.coderion.model
+namespace OpenFoodFactsCSharp.model
 {
     public class LanguagesCodes
     {

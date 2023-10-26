@@ -1,8 +1,8 @@
 
-using pl.coderion.model;
+using OpenFoodFactsCSharp.model;
 using System.Threading.Tasks;
 
-namespace pl.coderion.service
+namespace OpenFoodFactsCSharp.service
 {
     public interface IOpenFoodFactsWrapper
     {

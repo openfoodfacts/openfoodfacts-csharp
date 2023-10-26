@@ -1,7 +1,7 @@
 
 using System.Collections.Generic;
 
-namespace pl.coderion.model
+namespace OpenFoodFactsCSharp.model
 {
     public class Images
     {

@@ -1,12 +1,12 @@
 
 using System;
 using System.Net.Http;
-using pl.coderion.model;
-using pl.coderion.client;
-using pl.coderion.service;
+using OpenFoodFactsCSharp.model;
+using OpenFoodFactsCSharp.client;
+using OpenFoodFactsCSharp.service;
 using System.Threading.Tasks;
 
-namespace pl.coderion.service.impl
+namespace OpenFoodFactsCSharp.service.impl
 {
     public class OpenFoodFactsWrapperImpl : IOpenFoodFactsWrapper
     {

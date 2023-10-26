@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace pl.coderion.model
+namespace OpenFoodFactsCSharp.model
 {
     public class Nutriments
     {

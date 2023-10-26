@@ -3,9 +3,9 @@ using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using pl.coderion.model;
+using OpenFoodFactsCSharp.model;
 
-namespace pl.coderion.client
+namespace OpenFoodFactsCSharp.client
 {
     public class OpenFoodFactsApiLowLevelClient
     {

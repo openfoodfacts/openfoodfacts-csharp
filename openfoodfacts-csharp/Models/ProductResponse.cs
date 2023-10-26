@@ -1,9 +1,9 @@
 
 using System.Text.Json.Serialization;
 
-using pl.coderion.model;
+using OpenFoodFactsCSharp.model;
 
-namespace pl.coderion.model
+namespace OpenFoodFactsCSharp.model
 {
     public class ProductResponse
     {
