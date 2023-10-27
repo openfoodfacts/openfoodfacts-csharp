@@ -8,349 +8,349 @@ namespace OpenFoodFactsCSharp.model
     public class Product
     {
         [JsonProperty("languages_codes")]
-        public LanguagesCodes? LanguagesCodes { get; set; }
+        public LanguagesCodes LanguagesCodes { get; set; }
         [JsonProperty("nutrient_levels")]
-        public NutrientLevels? NutrientLevels { get; set; }
+        public NutrientLevels NutrientLevels { get; set; }
         [JsonProperty("selected_images")]
-        public SelectedImages? SelectedImages { get; set; }
+        public SelectedImages SelectedImages { get; set; }
         [JsonProperty("additives_n")]
         public int? AdditivesN { get; set; }
         [JsonProperty("additives_old_n")]
         public int? AdditivesOldN { get; set; }
         [JsonProperty("additives_original_tags")]
-        public String[]? AdditivesOriginalTags { get; set; }
+        public string[] AdditivesOriginalTags { get; set; }
         [JsonProperty("additives_old_tags")]
-        public String[]? AdditivesOldTags { get; set; }
+        public string[] AdditivesOldTags { get; set; }
         [JsonProperty("additives_prev_original_tags")]
-        public String[]? AdditivesPrevOriginalTags { get; set; }
+        public string[] AdditivesPrevOriginalTags { get; set; }
         [JsonProperty("additives_debug_tags")]
-        public String[]? AdditivesDebugTags { get; set; }
+        public string[] AdditivesDebugTags { get; set; }
         [JsonProperty("additives_tags")]
-        public String[]? AdditivesTags { get; set; }
+        public string[] AdditivesTags { get; set; }
         [JsonProperty("allergens_from_ingredients")]
-        public string? AllergensFromIngredients { get; set; }
+        public string AllergensFromIngredients { get; set; }
         [JsonProperty("allergens_from_user")]
-        public string? AllergensFromUser { get; set; }
+        public string AllergensFromUser { get; set; }
         [JsonProperty("allergens_hierarchy")]
-        public String[]? AllergensHierarchy { get; set; }
+        public String[] AllergensHierarchy { get; set; }
         [JsonProperty("allergens_lc")]
-        public string? AllergensLc { get; set; }
+        public string AllergensLc { get; set; }
         [JsonProperty("allergens_tags")]
-        public String[]? AllergensTags { get; set; }
+        public string[] AllergensTags { get; set; }
         [JsonProperty("amino_acids_prev_tags")]
-        public String[]? AminoAcidsPrevTags { get; set; }
+        public string[] AminoAcidsPrevTags { get; set; }
         [JsonProperty("amino_acids_tags")]
-        public String[]? AminoAcidsTags { get; set; }
-        public String? Brands { get;set; }
+        public string[] AminoAcidsTags { get; set; }
+        public string Brands { get;set; }
         [JsonProperty("brands_debug_tags")]
-        public String[]? BrandsDebugTags { get; set; }
+        public string[] BrandsDebugTags { get; set; }
         [JsonProperty("brands_tags")]
-        public String[]? BrandsTags { get; set; }
+        public string[] BrandsTags { get; set; }
         [JsonProperty("carbon_footprint_percent_of_known_ingredients")]
-        public string? CarbonFootprintPercentOfKnownIngredients { get; set; }
+        public string CarbonFootprintPercentOfKnownIngredients { get; set; }
         [JsonProperty("carbon_footprint_from_known_ingredients_debug")]
-        public string? CarbonFootprintFromKnownIngredientsDebug { get; set; }
+        public string CarbonFootprintFromKnownIngredientsDebug { get; set; }
         [JsonProperty("categories_hierarchy")]
-        public String[]? CategoriesHierarchy { get; set; }
+        public string[] CategoriesHierarchy { get; set; }
         [JsonProperty("categories_lc")]
-        public string? CategoriesLc { get; set; }
+        public string CategoriesLc { get; set; }
         [JsonProperty("categories_properties_tags")]
-        public String[]? CategoriesPropertiesTags { get; set; }
+        public string[] CategoriesPropertiesTags { get; set; }
         [JsonProperty("categories_tags")]
-        public String[]? CategoriesTags { get; set; }
+        public string[] CategoriesTags { get; set; }
         [JsonProperty("checkers_tags")]
-        public String[]? CheckersTags { get; set; }
+        public string[] CheckersTags { get; set; }
         [JsonProperty("cities_tags")]
-        public String[]? CitiesTags { get; set; }
+        public string[] CitiesTags { get; set; }
         [JsonProperty("codes_tags")]
-        public String[]? CodesTags { get; set; }
+        public string[] CodesTags { get; set; }
         [JsonProperty("compared_to_category")]
-        public string? ComparedToCategory { get; set; }
+        public string ComparedToCategory { get; set; }
         [JsonProperty("completed_t")]
         public long? CompletedT { get; set; }
         [JsonProperty("conservation_conditions")]
-        public string? ConservationConditions { get; set; }
+        public string ConservationConditions { get; set; }
         [JsonProperty("countries_hierarchy")]
-        public String[]? CountriesHierarchy { get; set; }
+        public string[] CountriesHierarchy { get; set; }
         [JsonProperty("countries_lc")]
-        public string? CountriesLc { get; set; }
+        public string CountriesLc { get; set; }
         [JsonProperty("countries_debug_tags")]
-        public String[]? CountriesDebugTags { get; set; }
+        public string[] CountriesDebugTags { get; set; }
         [JsonProperty("countries_tags")]
-        public String[]? CountriesTags { get; set; }
+        public string[] CountriesTags { get; set; }
         [JsonProperty("correctors_tags")]
-        public String[]? CorrectorsTags { get; set; }
+        public string[] CorrectorsTags { get; set; }
         [JsonProperty("created_t")]
         public long? CreatedT { get; set; }
         [JsonProperty("data_quality_bugs_tags")]
-        public String[]? DataQualityBugsTags { get; set; }
+        public string[] DataQualityBugsTags { get; set; }
         [JsonProperty("data_quality_errors_tags")]
-        public String[]? DataQualityErrorsTags { get; set; }
+        public string[] DataQualityErrorsTags { get; set; }
         [JsonProperty("data_quality_info_tags")]
-        public String[]? DataQualityInfoTags { get; set; }
+        public string[] DataQualityInfoTags { get; set; }
         [JsonProperty("data_quality_tags")]
-        public String[]? DataQualityTags { get; set; }
+        public string[] DataQualityTags { get; set; }
         [JsonProperty("data_quality_warnings_tags")]
-        public String[]? DataQualityWarningsTags { get; set; }
+        public string[] DataQualityWarningsTags { get; set; }
         [JsonProperty("data_sources")]
-        public string? DataSources { get; set; }
+        public string DataSources { get; set; }
         [JsonProperty("data_sources_tags")]
-        public String[]? DataSourcesTags { get; set; }
+        public string[] DataSourcesTags { get; set; }
         [JsonProperty("debug_param_sorted_langs")]
-        public String[]? DebugParamSortedLangs { get; set; }
+        public string[] DebugParamSortedLangs { get; set; }
         [JsonProperty("editors_tags")]
-        public String[]? EditorsTags { get; set; }
+        public string[] EditorsTags { get; set; }
         [JsonProperty("emb_codes")]
-        public string? EmbCodes { get; set; }
+        public string EmbCodes { get; set; }
         [JsonProperty("emb_codes_debug_tags")]
-        public String[]? EmbCodesDebugTags { get; set; }
+        public string[] EmbCodesDebugTags { get; set; }
         [JsonProperty("emb_codes_orig")]
-        public string? EmbCodesOrig { get; set; }
+        public string EmbCodesOrig { get; set; }
         [JsonProperty("emb_codes_tags")]
-        public String[]? EmbCodesTags { get; set; }
+        public string[] EmbCodesTags { get; set; }
         [JsonProperty("entry_dates_tags")]
-        public String[]? EntryDatesTags { get; set; }
+        public string[] EntryDatesTags { get; set; }
         [JsonProperty("expiration_date")]
-        public string? ExpirationDate { get; set; }
+        public string ExpirationDate { get; set; }
         [JsonProperty("expiration_date_debug_tags")]
-        public String[]? ExpirationDateDebugTags { get; set; }
+        public string[] ExpirationDateDebugTags { get; set; }
         [JsonProperty("fruits-vegetables-nuts_100g_estimate")]
         public int? FruitsVegetablesNuts100GEstimate { get; set; }
         [JsonProperty("generic_name")]
-        public string? GenericName { get; set; }
+        public string GenericName { get; set; }
         [JsonProperty("image_front_small_url")]
-        public string? ImageFrontSmallUrl { get; set; }
+        public string ImageFrontSmallUrl { get; set; }
         [JsonProperty("image_front_thumb_url")]
-        public string? ImageFrontThumbUrl { get; set; }
+        public string ImageFrontThumbUrl { get; set; }
         [JsonProperty("image_front_url")]
-        public string? ImageFrontUrl { get; set; }
+        public string ImageFrontUrl { get; set; }
         [JsonProperty("image_ingredients_url")]
-        public string? ImageIngredientsUrl { get; set; }
+        public string ImageIngredientsUrl { get; set; }
         [JsonProperty("image_ingredients_small_url")]
-        public string? ImageIngredientsSmallUrl { get; set; }
+        public string ImageIngredientsSmallUrl { get; set; }
         [JsonProperty("image_ingredients_thumb_url")]
-        public string? ImageIngredientsThumbUrl { get; set; }
+        public string ImageIngredientsThumbUrl { get; set; }
         [JsonProperty("image_nutrition_small_url")]
-        public string? ImageNutritionSmallUrl { get; set; }
+        public string ImageNutritionSmallUrl { get; set; }
         [JsonProperty("image_nutrition_thumb_url")]
-        public string? ImageNutritionThumbUrl { get; set; }
+        public string ImageNutritionThumbUrl { get; set; }
         [JsonProperty("image_nutrition_url")]
-        public string? ImageNutritionUrl { get; set; }
+        public string ImageNutritionUrl { get; set; }
         [JsonProperty("image_small_url")]
-        public string? ImageSmallUrl { get; set; }
+        public string ImageSmallUrl { get; set; }
         [JsonProperty("image_thumb_url")]
-        public string? ImageThumbUrl { get; set; }
+        public string ImageThumbUrl { get; set; }
         [JsonProperty("image_url")]
-        public string? ImageUrl { get; set; }
+        public string ImageUrl { get; set; }
         [JsonProperty("informers_tags")]
-        public String[]? InformersTags { get; set; }
+        public string[] InformersTags { get; set; }
         [JsonProperty("ingredients_analysis_tags")]
-        public String[]? IngredientsAnalysisTags { get; set; }
+        public string[] IngredientsAnalysisTags { get; set; }
         [JsonProperty("ingredients_debug")]
-        public String[]? IngredientsDebug { get; set; }
+        public string[] IngredientsDebug { get; set; }
         [JsonProperty("ingredients_from_or_that_may_be_from_palm_oil_n")]
         public int? IngredientsFromOrThatMayBeFromPalmOilN { get; set; }
         [JsonProperty("ingredients_from_palm_oil_tags")]
-        public String[]? IngredientsFromPalmOilTags { get; set; }
+        public string[] IngredientsFromPalmOilTags { get; set; }
         [JsonProperty("ingredients_from_palm_oil_n")]
         public int? IngredientsFromPalmOilN { get; set; }
         [JsonProperty("ingredients_hierarchy")]
-        public String[]? IngredientsHierarchy { get; set; }
+        public string[] IngredientsHierarchy { get; set; }
         [JsonProperty("ingredients_ids_debug")]
-        public String[]? IngredientsIdsDebug { get; set; }
+        public string[] IngredientsIdsDebug { get; set; }
         [JsonProperty("ingredients_n")]
         public int? IngredientsN { get; set; }
         [JsonProperty("ingredients_n_tags")]
-        public String[]? IngredientsNTags { get; set; }
+        public string[] IngredientsNTags { get; set; }
         [JsonProperty("ingredients_original_tags")]
-        public String[]? IngredientsOriginalTags { get; set; }
+        public string[] IngredientsOriginalTags { get; set; }
         [JsonProperty("ingredients_tags")]
-        public String[]? IngredientsTags { get; set; }
+        public string[] IngredientsTags { get; set; }
         [JsonProperty("ingredients_text")]
-        public string? IngredientsText { get; set; }
+        public string IngredientsText { get; set; }
         [JsonProperty("ingredients_text_debug")]
-        public string? IngredientsTextDebug { get; set; }
+        public string IngredientsTextDebug { get; set; }
         [JsonProperty("ingredients_text_with_allergens")]
-        public string? IngredientsTextWithAllergens { get; set; }
+        public string IngredientsTextWithAllergens { get; set; }
         [JsonProperty("ingredients_that_may_be_from_palm_oil_n")]
         public int? IngredientsThatMayBeFromPalmOilN { get; set; }
         [JsonProperty("ingredients_that_may_be_from_palm_oil_tags")]
-        public String[]? IngredientsThatMayBeFromPalmOilTags { get; set; }
+        public string[] IngredientsThatMayBeFromPalmOilTags { get; set; }
         [JsonProperty("interface_version_created")]
-        public string? InterfaceVersionCreated { get; set; }
+        public string InterfaceVersionCreated { get; set; }
         [JsonProperty("interface_version_modified")]
-        public string? InterfaceVersionModified { get; set; }
+        public string InterfaceVersionModified { get; set; }
         [JsonProperty("_keywords")]
-        public String[]? Keywords { get; set; }
+        public string[] Keywords { get; set; }
         [JsonProperty("known_ingredients_n")]
         public int? KnownIngredientsN { get; set; }
         [JsonProperty("labels_hierarchy")]
-        public String[]? LabelsHierarchy { get; set; }
+        public string[] LabelsHierarchy { get; set; }
         [JsonProperty("labels_lc")]
-        public string? LabelsLc { get; set; }
+        public string LabelsLc { get; set; }
         [JsonProperty("labels_prev_hierarchy")]
-        public String[]? LabelsPrevHierarchy { get; set; }
+        public string[] LabelsPrevHierarchy { get; set; }
         [JsonProperty("labels_prev_tags")]
-        public String[]? LabelsPrevTags { get; set; }
+        public string[] LabelsPrevTags { get; set; }
         [JsonProperty("labels_tags")]
-        public String[]? LabelsTags { get; set; }
+        public string[] LabelsTags { get; set; }
         [JsonProperty("labels_debug_tags")]
-        public String[]? LabelsDebugTags { get; set; }
+        public string[] LabelsDebugTags { get; set; }
         [JsonProperty("lang_debug_tags")]
-        public String[]? LangDebugTags { get; set; }
+        public string[] LangDebugTags { get; set; }
         [JsonProperty("languages_hierarchy")]
-        public String[]? LanguagesHierarchy { get; set; }
+        public string[] LanguagesHierarchy { get; set; }
         [JsonProperty("languages_tags")]
-        public String[]? LanguagesTags { get; set; }
+        public string[] LanguagesTags { get; set; }
         [JsonProperty("last_edit_dates_tags")]
-        public String[]? LastEditDatesTags { get; set; }
+        public string[] LastEditDatesTags { get; set; }
         [JsonProperty("last_editor")]
-        public string? LastEditor { get; set; }
+        public string LastEditor { get; set; }
         [JsonProperty("last_image_dates_tags")]
-        public String[]? LastImageDatesTags { get; set; }
+        public string[] LastImageDatesTags { get; set; }
         [JsonProperty("last_image_t")]
         public long? LastImageT { get; set; }
         [JsonProperty("last_modified_by")]
-        public string? LastModifiedBy { get; set; }
+        public string LastModifiedBy { get; set; }
         [JsonProperty("last_modified_t")]
         public long? LastModifiedT { get; set; }
         [JsonProperty("link_debug_tags")]
-        public String[]? LinkDebugTags { get; set; }
+        public string[] LinkDebugTags { get; set; }
         [JsonProperty("manufacturing_places")]
-        public string? ManufacturingPlaces { get; set; }
+        public string ManufacturingPlaces { get; set; }
         [JsonProperty("manufacturing_places_debug_tags")]
-        public String[]? ManufacturingPlacesDebugTags { get; set; }
+        public string[] ManufacturingPlacesDebugTags { get; set; }
         [JsonProperty("manufacturing_places_tags")]
-        public String[]? ManufacturingPlacesTags { get; set; }
+        public string[] ManufacturingPlacesTags { get; set; }
         [JsonProperty("max_imgid")]
-        public string? MaxImgid { get; set; }
+        public string MaxImgid { get; set; }
         [JsonProperty("minerals_prev_tags")]
-        public String[]? MineralsPrevTags { get; set; }
+        public string[] MineralsPrevTags { get; set; }
         [JsonProperty("minerals_tags")]
-        public String[]? MineralsTags { get; set; }
+        public string[] MineralsTags { get; set; }
         [JsonProperty("misc_tags")]
-        public String[]? MiscTags { get; set; }
+        public string[] MiscTags { get; set; }
         [JsonProperty("net_weight_unit")]
-        public string? NetWeightUnit { get; set; }
+        public string NetWeightUnit { get; set; }
         [JsonProperty("net_weight_value")]
-        public string? NetWeightValue { get; set; }
+        public string NetWeightValue { get; set; }
         [JsonProperty("nutrition_data_per")]
-        public string? NutritionDataPer { get; set; }
+        public string NutritionDataPer { get; set; }
         [JsonProperty("nutrition_score_warning_no_fruits_vegetables_nuts")]
         public int? NutritionScoreWarningNoFruitsVegetablesNuts { get; set; }
         [JsonProperty("no_nutrition_data")]
-        public string? NoNutritionData { get; set; }
+        public string NoNutritionData { get; set; }
         [JsonProperty("nova_group")]
-        public string? NovaGroup { get; set; }
+        public string NovaGroup { get; set; }
         [JsonProperty("nova_groups")]
-        public string? NovaGroups { get; set; }
+        public string NovaGroups { get; set; }
         [JsonProperty("nova_group_debug")]
-        public string? NovaGroupDebug { get; set; }
+        public string NovaGroupDebug { get; set; }
         [JsonProperty("nova_group_tags")]
-        public String[]? NovaGroupTags { get; set; }
+        public string[] NovaGroupTags { get; set; }
         [JsonProperty("nova_groups_tags")]
-        public String[]? NovaGroupsTags { get; set; }
+        public string[] NovaGroupsTags { get; set; }
         [JsonProperty("nucleotides_prev_tags")]
-        public String[]? NucleotidesPrevTags { get; set; }
+        public string[] NucleotidesPrevTags { get; set; }
         [JsonProperty("nucleotides_tags")]
-        public String[]? NucleotidesTags { get; set; }
+        public string[] NucleotidesTags { get; set; }
         [JsonProperty("nutrient_levels_tags")]
-        public String[]? NutrientLevelsTags { get; set; }
+        public string[] NutrientLevelsTags { get; set; }
         [JsonProperty("nutrition_data")]
-        public string? NutritionData { get; set; }
+        public string NutritionData { get; set; }
         [JsonProperty("nutrition_data_per_debug_tags")]
-        public String[]? NutritionDataPerDebugTags { get; set; }
+        public string[] NutritionDataPerDebugTags { get; set; }
         [JsonProperty("nutrition_data_prepared")]
-        public string? NutritionDataPrepared { get; set; }
+        public string NutritionDataPrepared { get; set; }
         [JsonProperty("nutrition_data_prepared_per")]
-        public string? NutritionDataPreparedPer { get; set; }
+        public string NutritionDataPreparedPer { get; set; }
         [JsonProperty("nutrition_grades")]
-        public string? NutritionGrades { get; set; }
+        public string NutritionGrades { get; set; }
         [JsonProperty("nutrition_score_beverage")]
         public int? NutritionScoreBeverage { get; set; }
         [JsonProperty("nutrition_score_debug")]
-        public string? NutritionScoreDebug { get; set; }
+        public string NutritionScoreDebug { get; set; }
         [JsonProperty("nutrition_score_warning_no_fiber")]
         public int? NutritionScoreWarningNoFiber { get; set; }
         [JsonProperty("nutrition_grades_tags")]
-        public String[]? NutritionGradesTags { get; set; }
+        public string[] NutritionGradesTags { get; set; }
         [JsonProperty("origins_debug_tags")]
-        public String[]? OriginsDebugTags { get; set; }
+        public string[] OriginsDebugTags { get; set; }
         [JsonProperty("origins_tags")]
-        public String[]? OriginsTags { get; set; }
+        public string[] OriginsTags { get; set; }
         [JsonProperty("other_information")]
-        public string? OtherInformation { get; set; }
+        public string OtherInformation { get; set; }
         [JsonProperty("other_nutritional_substances_tags")]
-        public String[]? OtherNutritionalSubstancesTags { get; set; }
+        public string[] OtherNutritionalSubstancesTags { get; set; }
         [JsonProperty("packaging_debug_tags")]
-        public String[]? PackagingDebugTags { get; set; }
+        public string[] PackagingDebugTags { get; set; }
         [JsonProperty("packaging_tags")]
-        public String[]? PackagingTags { get; set; }
+        public string[] PackagingTags { get; set; }
         [JsonProperty("photographers_tags")]
-        public String[]? PhotographersTags { get; set; }
+        public string[] PhotographersTags { get; set; }
         [JsonProperty("pnns_groups_1")]
-        public string? PnnsGroups1 { get; set; }
+        public string PnnsGroups1 { get; set; }
         [JsonProperty("pnns_groups_2")]
-        public string? PnnsGroups2 { get; set; }
+        public string PnnsGroups2 { get; set; }
         [JsonProperty("pnns_groups_1_tags")]
-        public String[]? PnnsGroups1Tags { get; set; }
+        public string[] PnnsGroups1Tags { get; set; }
         [JsonProperty("pnns_groups_2_tags")]
-        public String[]? PnnsGroups2Tags { get; set; }
+        public string[] PnnsGroups2Tags { get; set; }
         [JsonProperty("popularity_key")]
         public long? PopularityKey { get; set; }
         [JsonProperty("producer_version_id")]
-        public string? ProducerVersionId { get; set; }
+        public string ProducerVersionId { get; set; }
         [JsonProperty("product_name")]
-        public string? ProductName { get; set; }
+        public string ProductName { get; set; }
         [JsonProperty("product_quantity")]
-        public string? ProductQuantity { get; set; }
+        public string ProductQuantity { get; set; }
         [JsonProperty("purchase_places")]
-        public string? PurchasePlaces { get; set; }
+        public string PurchasePlaces { get; set; }
         [JsonProperty("purchase_places_debug_tags")]
-        public String[]? PurchasePlacesDebugTags { get; set; }
+        public string[] PurchasePlacesDebugTags { get; set; }
         [JsonProperty("purchase_places_tags")]
-        public String[]? PurchasePlacesTags { get; set; }
+        public string[] PurchasePlacesTags { get; set; }
         [JsonProperty("quality_tags")]
-        public String[]? QualityTags { get; set; }
+        public string[] QualityTags { get; set; }
         [JsonProperty("quantity_debug_tags")]
-        public String[]? QuantityDebugTags { get; set; }
+        public string[] QuantityDebugTags { get; set; }
         [JsonProperty("recycling_instructions_to_discard")]
-        public string? RecyclingInstructionsToDiscard { get; set; }
+        public string RecyclingInstructionsToDiscard { get; set; }
         [JsonProperty("serving_quantity")]
-        public string? ServingQuantity { get; set; }
+        public string ServingQuantity { get; set; }
         [JsonProperty("serving_size")]
-        public string? ServingSize { get; set; }
+        public string ServingSize { get; set; }
         [JsonProperty("serving_size_debug_tags")]
-        public String[]? ServingSizeDebugTags { get; set; }
+        public string[] ServingSizeDebugTags { get; set; }
         [JsonProperty("states_hierarchy")]
-        public String[]? StatesHierarchy { get; set; }
+        public string[] StatesHierarchy { get; set; }
         [JsonProperty("states_tags")]
-        public String[]? StatesTags { get; set; }
+        public string[] StatesTags { get; set; }
         [JsonProperty("stores_debug_tags")]
-        public String[]? StoresDebugTags { get; set; }
+        public string[] StoresDebugTags { get; set; }
         [JsonProperty("stores_tags")]
-        public String[]? StoresTags { get; set; }
+        public string[] StoresTags { get; set; }
         [JsonProperty("traces_from_ingredients")]
-        public string? TracesFromIngredients { get; set; }
+        public string TracesFromIngredients { get; set; }
         [JsonProperty("traces_hierarchy")]
-        public String[]? TracesHierarchy { get; set; }
+        public string[] TracesHierarchy { get; set; }
         [JsonProperty("traces_debug_tags")]
-        public String[]? TracesDebugTags { get; set; }
+        public string[] TracesDebugTags { get; set; }
         [JsonProperty("traces_from_user")]
-        public string? TracesFromUser { get; set; }
+        public string TracesFromUser { get; set; }
         [JsonProperty("traces_lc")]
-        public string? TracesLc { get; set; }
+        public string TracesLc { get; set; }
         [JsonProperty("traces_tags")]
-        public String[]? TracesTags { get; set; }
+        public string[] TracesTags { get; set; }
         [JsonProperty("unknown_ingredients_n")]
         public int? UnknownIngredientsN { get; set; }
         [JsonProperty("unknown_nutrients_tags")]
-        public String[]? UnknownNutrientsTags { get; set; }
+        public string[] UnknownNutrientsTags { get; set; }
         [JsonProperty("update_key")]
-        public string? UpdateKey { get; set; }
+        public string UpdateKey { get; set; }
         [JsonProperty("vitamins_prev_tags")]
-        public String[]? VitaminsPrevTags { get; set; }
+        public string[] VitaminsPrevTags { get; set; }
         [JsonProperty("vitamins_tags")]
-        public String[]? VitaminsTags { get; set; }
+        public string[] VitaminsTags { get; set; }
     }
 }

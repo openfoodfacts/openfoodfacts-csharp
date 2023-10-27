@@ -16,7 +16,7 @@ namespace OpenFoodFactsCSharp.model
         public float? Salt100g { get; set; }
         
         [JsonProperty("salt_unit")]
-        public string? SaltUnit { get; set; }
+        public string SaltUnit { get; set; }
         
         [JsonProperty("fat")]
         public float? Fat { get; set; }
@@ -28,7 +28,7 @@ namespace OpenFoodFactsCSharp.model
         public float? Fat100g { get; set; }
         
         [JsonProperty("fat_unit")]
-        public string? FatUnit { get; set; }
+        public string FatUnit { get; set; }
         
         [JsonProperty("saturated-fat")]
         public float? SaturatedFat { get; set; }
@@ -40,7 +40,7 @@ namespace OpenFoodFactsCSharp.model
         public float? SaturatedFat100g { get; set; }
         
         [JsonProperty("saturated-fat_unit")]
-        public string? SaturatedFatUnit { get; set; }
+        public string SaturatedFatUnit { get; set; }
         
         [JsonProperty("sugars")]
         public float? Sugars { get; set; }
@@ -52,7 +52,7 @@ namespace OpenFoodFactsCSharp.model
         public float? Sugars100g { get; set; }
         
         [JsonProperty("sugars_unit")]
-        public string? SugarsUnit { get; set; }
+        public string SugarsUnit { get; set; }
         
         [JsonProperty("carbohydrates")]
         public float? Carbohydrates { get; set; }
@@ -64,7 +64,7 @@ namespace OpenFoodFactsCSharp.model
         public float? Carbohydrates100g { get; set; }
         
         [JsonProperty("carbohydrates_unit")]
-        public string? CarbohydratesUnit { get; set; }
+        public string CarbohydratesUnit { get; set; }
         
         [JsonProperty("energy-kcal_100g")]
         public float? EnergyKcal100g { get; set; }
@@ -73,7 +73,7 @@ namespace OpenFoodFactsCSharp.model
         public float? EnergyKcalServing { get; set; }
         
         [JsonProperty("energy-kcal_unit")]
-        public string? EnergyKcalUnit { get; set; }
+        public string EnergyKcalUnit { get; set; }
         
         [JsonProperty("proteins")]
         public float? Proteins { get; set; }
@@ -85,7 +85,7 @@ namespace OpenFoodFactsCSharp.model
         public float? Proteins100g { get; set; }
         
         [JsonProperty("proteins_unit")]
-        public string? ProteinsUnit { get; set; }
+        public string ProteinsUnit { get; set; }
         
         // ... and other nutrients ...
         
