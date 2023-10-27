@@ -28,8 +28,8 @@ namespace OpenFoodFactsCSharp.Tests
 
             Assert.NotNull(productResponse);
             Assert.Equal(productCode, productResponse.Code);
-            Assert.Equal("Sweet Baby Ray's", productResponse.Product.brands);
-            Assert.Equal("Barbecue sauce", productResponse.Product.productName);
+            Assert.Equal("Sweet Baby Ray's", productResponse.Product.Brands);
+            Assert.Equal("Barbecue sauce", productResponse.Product.ProductName);
         }
     }
 }
