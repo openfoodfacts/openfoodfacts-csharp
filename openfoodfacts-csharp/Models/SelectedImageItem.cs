@@ -1,7 +1,4 @@
-
-using System;
-
-namespace OpenFoodFactsCSharp.model
+namespace OpenFoodFactsCSharp.Models
 {
     public class SelectedImageItem
     {

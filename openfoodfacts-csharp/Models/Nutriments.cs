@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace OpenFoodFactsCSharp.model
+namespace OpenFoodFactsCSharp.Models
 {
     public class Nutriments
     {

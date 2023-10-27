@@ -1,8 +1,8 @@
 
-using OpenFoodFactsCSharp.model;
+using OpenFoodFactsCSharp.Models;
 using System.Threading.Tasks;
 
-namespace OpenFoodFactsCSharp.services.interfaces
+namespace OpenFoodFactsCSharp.Services.Interfaces
 {
     public interface IOpenFoodFactsWrapper
     {

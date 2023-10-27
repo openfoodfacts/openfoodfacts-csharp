@@ -3,9 +3,9 @@ using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using OpenFoodFactsCSharp.model;
+using OpenFoodFactsCSharp.Models;
 
-namespace OpenFoodFactsCSharp.client
+namespace OpenFoodFactsCSharp.Clients
 {
     public class OpenFoodFactsApiLowLevelClient
     {

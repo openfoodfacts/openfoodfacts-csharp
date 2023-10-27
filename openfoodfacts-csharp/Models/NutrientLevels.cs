@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace OpenFoodFactsCSharp.model
+namespace OpenFoodFactsCSharp.Models
 {
     public class NutrientLevels
     {

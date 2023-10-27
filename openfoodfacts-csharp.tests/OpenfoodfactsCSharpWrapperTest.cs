@@ -1,17 +1,17 @@
-using OpenFoodFactsCSharp.services;
+using OpenFoodFactsCSharp.Services;
 using Xunit;
 
 namespace OpenFoodFactsCSharp.Tests
 {
     public class OpenfoodfactsCSharpWrapperTest
     {
-        private readonly OpenFoodFactsCSharp.services.OpenFoodFactsWrapperImpl service;
+        private readonly OpenFoodFactsCSharp.Services.OpenFoodFactsWrapperImpl service;
 
         public OpenfoodfactsCSharpWrapperTest()
         {
             // Initialize the service here, you might want to mock its dependencies
             // or use any DI mechanism your project utilizes.
-            service = new OpenFoodFactsWrapperImpl(new OpenFoodFactsCSharp.client.OpenFoodFactsApiLowLevelClient(new System.Net.Http.HttpClient()));
+            service = new OpenFoodFactsWrapperImpl(new OpenFoodFactsCSharp.Clients.OpenFoodFactsApiLowLevelClient(new System.Net.Http.HttpClient()));
         }
 
         [Fact]

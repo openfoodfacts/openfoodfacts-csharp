@@ -1,13 +1,11 @@
 
 using System;
-using System.Net.Http;
-using OpenFoodFactsCSharp.model;
-using OpenFoodFactsCSharp.client;
-using OpenFoodFactsCSharp.services;
+using OpenFoodFactsCSharp.Models;
+using OpenFoodFactsCSharp.Clients;
 using System.Threading.Tasks;
-using OpenFoodFactsCSharp.services.interfaces;
+using OpenFoodFactsCSharp.Services.Interfaces;
 
-namespace OpenFoodFactsCSharp.services
+namespace OpenFoodFactsCSharp.Services
 {
     public class OpenFoodFactsWrapperImpl : IOpenFoodFactsWrapper
     {

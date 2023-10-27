@@ -1,7 +1,7 @@
 
 using System.Collections.Generic;
 
-namespace OpenFoodFactsCSharp.model
+namespace OpenFoodFactsCSharp.Models
 {
     public class Images
     {

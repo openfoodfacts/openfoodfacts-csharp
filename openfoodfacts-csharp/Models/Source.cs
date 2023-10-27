@@ -1,7 +1,7 @@
 
 using Newtonsoft.Json;
 
-namespace OpenFoodFactsCSharp.model
+namespace OpenFoodFactsCSharp.Models
 {
     public class Source
     {
