@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenFoodFacts-CSharp", "OpenFoodFacts-CSharp\OpenFoodFacts-CSharp.csproj", "{DA32E0E9-3B73-4D3A-AB35-8A1B6FFA8A7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenFoodFacts-CSharp.Tests", "OpenFoodFacts-CSharp.Tests\OpenFoodFacts-CSharp.Tests.csproj", "{90A412D9-D64F-45E7-AE2D-E6E0A0D4BDDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA32E0E9-3B73-4D3A-AB35-8A1B6FFA8A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA32E0E9-3B73-4D3A-AB35-8A1B6FFA8A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA32E0E9-3B73-4D3A-AB35-8A1B6FFA8A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA32E0E9-3B73-4D3A-AB35-8A1B6FFA8A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A412D9-D64F-45E7-AE2D-E6E0A0D4BDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A412D9-D64F-45E7-AE2D-E6E0A0D4BDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A412D9-D64F-45E7-AE2D-E6E0A0D4BDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A412D9-D64F-45E7-AE2D-E6E0A0D4BDDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		        SolutionGuid = {CCE3D3DE-2C3E-4B7A-8BE5-4E1F9F7F1C2A}
+	EndGlobalSection
+EndGlobal
