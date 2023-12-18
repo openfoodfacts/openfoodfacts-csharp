@@ -283,6 +283,9 @@ namespace OpenFoodFactsCSharp.Models
         public string[] OtherNutritionalSubstancesTags { get; set; }
         [JsonProperty("packaging_debug_tags")]
         public string[] PackagingDebugTags { get; set; }
+        [JsonProperty("ecoscore_data")]
+        public EcoscoreData EcoscoreData { get; set; }
+
         [JsonProperty("packaging_tags")]
         public string[] PackagingTags { get; set; }
         [JsonProperty("photographers_tags")]
