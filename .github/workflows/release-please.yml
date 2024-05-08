@@ -1,0 +1,17 @@
+ name: Release Please 
+ on:
+   push:
+     branches:
+       - master
+ jobs:
+   release:
+     runs-on: ubuntu-latest
+     if: github.repository_owner  == 'openfoodfacts'
+     steps:
+        
+        - name: Release-Please
+          id: release
+          uses: GoogleCloudPlatform/release-please-action@v4
+          with:
+            token: ${{ secrets.OPENFOODFACTS_BOT_PAT }}
+            release-type: dart
