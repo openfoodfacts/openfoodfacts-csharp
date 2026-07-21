@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+      <OutputType>Library</OutputType>
+      <TargetFramework>net10.0</TargetFramework>
+      <PublishAot>true</PublishAot>
+      <PublishTrimmed>true</PublishTrimmed>
+      <TrimMode>full</TrimMode>
+      <OptimizationPreference>Size</OptimizationPreference>
+      <StackTraceSupport>false</StackTraceSupport>
+      <DebuggerSupport>false</DebuggerSupport>
+      <EnableUnsafeUTF7Formatting>false</EnableUnsafeUTF7Formatting>
+      <InvariantGlobalization>true</InvariantGlobalization>
+      <UseSystemResourceKeys>true</UseSystemResourceKeys>
+      <SelfContained>true</SelfContained>
+    </PropertyGroup>
+</Project>
